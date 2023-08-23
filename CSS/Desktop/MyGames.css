@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .GameBody {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+    .Images {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .Explanation {
+        padding: 40px;
+    }
+}

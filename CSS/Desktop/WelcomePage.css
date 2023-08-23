@@ -1,0 +1,65 @@
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+
+	.side {
+		width: 40%;
+		float: right;
+		text-align: left;
+	}
+
+	.AboutMe {
+		width: 60%;
+		float: left;
+		padding: 50px;
+	}
+
+	.myFace > img {
+		max-width: 25%;
+		height: auto;
+	}
+
+	#myProjects > div {
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+		grid-template-rows: 100%;
+		gap: 5%;
+	}
+
+	#MyGamesButton > p {
+		margin: 20% 0 0 0;
+		font-size: 40px;
+	}
+
+	#myGitHubContainerBox {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: 3%;
+		padding: 5%;
+	}
+
+	#myGitHubContainerBox > div {
+		border: 5px solid #28b4b4;
+		border-radius: 12px;
+	}
+
+	#myGitHubContainerBox > img {
+		border: none;
+	}
+
+	.myFace, .mySkills {
+		flex: 1;
+		padding: 20px;
+	}
+
+	#myEducationContainerBox {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: 3%;
+		padding: 5%;
+	}
+
+	object {
+		width: 100%;
+		height: 500px;
+	}
+}

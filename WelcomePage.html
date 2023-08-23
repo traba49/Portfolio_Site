@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <meta />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Desktop/WelcomePage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Mobile/WelcomePage.css">
+    <script src="JS/Functions.js"></script>
+</head>
+<body>
+
+    <ul id="NavigationBar">
+        <li><a class="active" href="WelcomePage.html">Home Page</a></li>
+        <li><a href="MyGames.html">My Games</a></li>
+        <li><a href="MyEducation.html">My Education</a></li>
+    </ul>
+
+
+    <div class="partition" id="myInfo">
+        <div class="side">
+            <div class="myFace">
+                <img src="Images/Profile_Pic.jpg" alt="My Image">
+            </div>
+            <div class="mySkills">
+                <ul>
+                    <li>Unity 3D/2D</li>
+                    <li>C#</li>
+                    <li>HTML,CSS,Javascript</li>
+                    <li>git,GitHub</li>
+                    <li>Web Page Creation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="AboutMe">
+            <h1>Trampakoulas Petros</h1>
+            <p>
+                I am a junior game developer, working for the time being on small personal projects using the Unity Game engine.
+                I have a Bachelor degree in Computer Science - Digital Systems - Infrastructure and services, from University of Piraeus.
+            </p>
+            <p>
+                My ambition is to join the Game Development Industry,
+                for my professional future, joining one of the big companies in the field.
+            </p>
+        </div>
+    </div>
+
+    <div class="partition" id="myProjects">
+        <h2>MY GAMES</h2>
+        <div class="GameRow1" onclick="ChangeSrc()">
+            <img src="Images/Knight_Climb_Main.png" id="myProjects_Image" alt="My Image">
+            <img src="Images/Tavern_Main.png" id="myProjects_Image" alt="My Image">
+            <img src="Images/Swim_3D_1.png" id="myProjects_Image" alt="My Image">
+        </div>
+        <div class="GameRow2">
+            <img src="Images/Space_Shooter_Boss.png" id="myProjects_Image" alt="My Image">
+            <a href="MyGames.html" class="button" id="MyGamesButton"><p>Check out my game here</p></a>
+            <img src="Images/Chase_Ball_Main.png" id="myProjects_Image" alt="My Image">
+        </div>
+    </div>
+
+    <div class="partition" id="myGitHub">
+        <h2>My GitHub</h2>
+        <div id="myGitHubContainerBox">
+            <div class="GitHub1">
+                <img src="Images/TD_sample.png">
+                <h3>Tower Builder Sample</h3>
+                <p>Unity sample project showcasing namespaces and script organization in C#.</p>
+                <p>You can drag and drop crystals to create your ideal tower setup and then save, view and delete.</p>
+            </div>
+            <div class="GitHub2">
+                <img src="Images/TCG.jpg">
+                <h3>pokemonTCG demo</h3>
+                <p>A Unity sample project using the Pokémon TCG SDK C# implementation. (A wrapper around the Pokémon TCG API of pokemontcg.io).</p>
+                <p>You can load, filter and save cards.</p>
+            </div>
+        </div>
+        <a href="https://github.com/traba49" class="button">My GitHub</a>
+    </div>
+
+    <div class="partition" id="myEducation">
+        <h2>My Education</h2>
+        <div id="myEducationContainerBox">
+            <div class="Edu1">
+                <object data="pdf/ScoreReport.pdf" type="application/pdf"></object>
+            </div>
+            <div class="Edu2">
+                <object data="pdf/scan0018.pdf" type="application/pdf"></object>
+            </div>
+        </div>
+        <a href="MyEducation.html" class="button">My Education</a>
+    </div>
+
+
+</body>
+</html >

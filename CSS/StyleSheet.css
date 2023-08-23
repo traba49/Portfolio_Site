@@ -1,0 +1,98 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: Arial;    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p, li, a {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+.partition {
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+
+#NavigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #28b4b4;
+    position: fixed;
+    width: 100%;
+}
+
+#NavigationBar > li{
+    float: left;
+}
+
+#NavigationBar > li > a {    
+    color: white;
+    display: block;
+    padding: 24px;
+}
+
+#NavigationBar > li > a:hover:not(.active) {
+    background-color: #b7b7b7;
+}
+.active {
+    background-color: #434343;
+}
+
+#myInfo, #Title{
+    background-color: #28b4b4;
+    float: left;
+}
+
+#myProjects, #myEducation, #Game1 {
+    background-color: #434343;    
+    overflow: hidden;    
+}
+
+#myProjects_Image {
+    border: 5px solid #28b4b4;
+    border-radius: 12px;
+}
+
+#myGitHub, #Game2 {
+    background-color: #b7b7b7;
+}
+
+.GitHub1, .GitHub2 {
+    background-color: #434343;
+    background-size: contain;
+}
+
+.button {
+    background-color: #28b4b4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

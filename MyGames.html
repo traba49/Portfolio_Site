@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <meta />
+    <title>MyGames</title>
+    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Desktop/MyGames.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Mobile/MyGames.css">
+    <script src="JS/Functions.js"></script>
+</head>
+<body>
+
+    <ul id="NavigationBar">
+        <li><a href="WelcomePage.html">Home Page</a></li>
+        <li><a class="active" href="MyGames.html">My Games</a></li>
+        <li><a href="MyEducation.html">My Education</a></li>
+    </ul>
+
+    <div class="partition" id="Title">
+        <div class="Text">
+            <h1>
+                Here you can see game titles that I have worked on or created on my own.
+            </h1>
+        </div>
+    </div>
+
+    <!-- template
+    <div class="partition" id="Game">
+        <div class="GameName">
+            <p>Name Here</p>
+        </div>
+        <div class="GameBody">
+            <div class="Images">
+
+            </div>
+            <div class="Explanation">
+                <div>
+
+                </div>
+                <div class="GameLink">
+
+                </div>
+            </div>
+        </div>
+    </div>
+        -->
+
+    <div class="partition" id="Game1">
+        <div class="GameName">
+            <h1>Chase Ball</h1>
+        </div>
+        <div class="GameBody">
+            <div class="Images">
+                <img src="Images/Chase_Ball_Main.png" id="myProjects_Image" alt="My Image">
+                <img src="Images/Chase_Ball_1.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+                <img src="Images/Chase_Ball_2.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+                <img src="Images/Chase_Ball_3.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+            </div>
+            <div class="Explanation">
+                <div>
+                    <p>
+                        This is a simple game I created on my own. I used simple primitive 2D shapes and simple physics collison.
+                        I used Unity's Input System to create controls for both mouse/keyboard and phone touch controls. The goal of
+                        the game is to collect the green diamonds while avoiding the red spikeballs. Originally the spikeballs were just
+                        simple spheres but they were changed so colorblind players can seperate them from the player sphere.
+                        I intergraded a simple online leaderboard using lootlocker so players can compete for high scores.
+                    </p>
+                </div>
+                <div class="GameLink">
+                    <a href="#" class="button">Check out the game in itch.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partition" id="Game2">
+        <div class="GameName">
+            <h1>Untitled Tavern Game</h1>
+        </div>
+        <div class="GameBody">
+            <div class="Images">
+                <img src="Images/Tavern_Main.png" id="myProjects_Image" alt="My Image">
+                <img src="Images/Tavern_1.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+                <img src="Images/Tavern_2.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+                <img src="Images/Tavern_3.png" class="hideInMobile" id="myProjects_Image" alt="My Image">
+            </div>
+            <div class="Explanation">
+                <div>
+                    <p>
+                        Untitled tavern game was my first project that had more complexity than a simple platformer.
+                        I created three managers scripts managing the main aspects of the game as singletons.
+                        Customers, ingredients and foods are scriptable objects for better asset management.
+                        This was also the first time where I created a saving system that handles multiple different types of data.
+                        I made the game using a single scene.
+                    </p>
+                </div>
+                <div class="GameLink">
+                    <a href="#" class="button">Check out the game in itch.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
